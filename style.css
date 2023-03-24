@@ -1,0 +1,25 @@
+body{
+    background: rgb(42, 28, 82);
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    color: black;
+    padding: 1rem;
+    border-radius: 10px;
+}
+button{
+    padding: 1rem;
+    border-radius: 10px;
+}
+button:hover{
+    background: rgb(189, 208, 224);
+    scale: 1.05;
+}
+button:active{
+    scale: 0.95;
+}
